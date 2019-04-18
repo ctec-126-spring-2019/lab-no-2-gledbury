@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!--George Ledbury-->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -29,7 +30,43 @@
 <script>
     function startThings(){
         let romanNumeral; // do not modify
-        // your code goes here
+        let number = prompt('Enter a number between 1 and 10');
+        switch (number) {
+            case '1':
+            romanNumeral = 'I';
+            break;
+            case '2':
+            romanNumeral = 'II';
+            break;
+            case '3':
+            romanNumeral = 'III';
+            break;
+            case '4':
+            romanNumeral = 'IV';
+            break;
+            case '5':
+            romanNumeral = 'V';
+            break;
+            case '6':
+            romanNumeral = 'VI';
+            break;
+            case '7':
+            romanNumeral = 'VII';
+            break;
+            case '8':
+            romanNumeral = 'VIII';
+            break;
+            case '9':
+            romanNumeral = 'IX';
+            break;
+            case '10':
+            romanNumeral = 'X';
+            break;
+            default:
+                alert('That number is not between 1 and 10 :(');
+                break;
+
+        }
         // be sure to assign the roman numeral to the variable romanNumeral
         // it will be used to display it on the web page using the code below
 
